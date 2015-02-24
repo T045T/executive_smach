@@ -34,6 +34,7 @@ import smach
 __all__ = ['set_preempt_handler',
         'ActionServerWrapper',
         'IntrospectionClient','IntrospectionServer',
+        'PublishState',
         'SimpleActionState',
         'ServiceState',
         'MonitorState',
@@ -56,6 +57,7 @@ from action_server_wrapper import ActionServerWrapper
 from introspection import IntrospectionClient, IntrospectionServer
 
 ### State Classes
+from publish_state import PublishState
 from simple_action_state import SimpleActionState
 from service_state import ServiceState
 from monitor_state import MonitorState
